@@ -1,0 +1,40 @@
+.stopwatch_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.lap_box {
+    background-color: aliceblue;
+    height: 100vh;
+    overflow: scroll;
+    padding: 50px;
+}
+
+.lap_box::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.time {
+    font-size: 48px;
+    margin: 20px;
+    text-align: center;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 30px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(88, 166, 235);
+    border-radius: 30px;
+}
+
+.lap-times {
+    list-style-type: none;
+    padding: 0;
+}
